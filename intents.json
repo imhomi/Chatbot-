@@ -1,0 +1,149 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey"],
+            "responses": ["Hi there", "Hello", "Hey"]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+            "responses": ["You're welcome", "No problem", "Glad I could help"]
+        },
+        {
+            "tag": "introduction",
+            "patterns": ["Who are you", "What are you", "What can you do", "What is your purpose"],
+            "responses": ["I am a chatbot homi", "My purpose is to assist you", "I can answer questions and provide assistance"]
+        },
+        {
+            "tag": "support",
+            "patterns": ["Help", "I need help", "Can you help me", "What should I do"],
+            "responses": ["Sure, what do you need help with?", "I'm here to help. What's the problem?", "How can I assist you?"]
+        },
+        {
+            "tag": "sem3_syllabus",
+            "patterns": ["sem 3 subjects", "sem 3 syllabus", "subjects for sem 3"],
+            "responses": ["Sem 3 includes Data Structures, Operating Systems, and Mathematics III."]
+        },
+        {
+            "tag": "sem4_syllabus",
+            "patterns": ["sem 4 subjects", "sem 4 syllabus", "subjects for sem 4"],
+            "responses": ["Sem 4 includes Algorithms, Database Management, and Computer Networks."]
+        },
+        {
+            "tag": "sem5_syllabus",
+            "patterns": ["sem 5 subjects", "sem 5 syllabus", "subjects for sem 5"],
+            "responses": ["Sem 5 includes Software Engineering, Web Development, and Cybersecurity."]
+        },
+        {
+            "tag": "sem6_syllabus",
+            "patterns": ["sem 6 subjects", "sem 6 syllabus", "subjects for sem 6"],
+            "responses": ["Sem 6 includes Cloud Computing, IoT, and Advanced Programming."]
+        },
+        {
+            "tag": "sem7_syllabus",
+            "patterns": ["sem 7 subjects", "sem 7 syllabus", "subjects for sem 7"],
+            "responses": ["Sem 7 includes Machine Learning, Blockchain, and Mobile Application Development."]
+        },
+        {
+            "tag": "sem8_syllabus",
+            "patterns": ["sem 8 subjects", "sem 8 syllabus", "subjects for sem 8"],
+            "responses": ["Sem 8 includes Final Year Project, Artificial Intelligence, and DevOps."]
+        },
+        {
+            "tag": "faculty_contact1",
+            "patterns": ["Contact HOD IT", "HOD IT contact details", "Faculty contact for IT"],
+            "responses": ["HOD of IT: Dr. Rajesh Kumar | Email: hod.it@college.edu | Phone: 123-456-1001"]
+        },
+        {
+            "tag": "faculty_contact2",
+            "patterns": ["Dr. Priya Mehta contact", "Math faculty contact", "Contact details for Math faculty"],
+            "responses": ["Math faculty: Dr. Priya Mehta | Email: math@college.edu | Phone: 123-456-2002"]
+        },
+        {
+            "tag": "faculty_contact3",
+            "patterns": ["Machine learning faculty contact", "Contact details for ML", "Who's the MM faculty?"],
+            "responses": ["Machine Learning faculty: Prof. Sunil Sharma | Email: machinelearning@college.edu | Phone: 123-456-3003"]
+        },
+        {
+            "tag": "faculty_contact4",
+            "patterns": ["DBMS faculty contact", "Who's the faculty for dbms?", "Contact for DBMS faculty"],
+            "responses": ["DBMS faculty: Prof. Sameer Patil | Email: dbms@college.edu | Phone: 123-456-4004"]
+        },
+        {
+            "tag": "faculty_contact5",
+            "patterns": ["Contact Dr. Ravi Kumar", "HCI faculty", "Faculty of HCI"],
+            "responses": ["Dr. Ravi Kumar teaches HCI to IT Department | Email: hci@college.edu | Phone: 123-457-4004."]
+        },
+        {
+            "tag": "faculty_contact6",
+            "patterns": ["Prof. Manisha Singh contact", "Chemical faculty contact", "Who's teaching Chemistry?"],
+            "responses": ["Prof. Manisha Singh | Email: chemistry@college.edu | Phone: 123-456-5005"]
+        },
+        {
+            "tag": "cultural_event",
+            "patterns": ["Cultural fest events", "Dance performances this Friday", "Drama event details"],
+            "responses": ["Cultural fest events include dance, drama, and music performances. 🎭"]
+        },
+        {
+            "tag": "sports_event",
+            "patterns": ["Sports Day schedule", "Upcoming sports events", "Sports activities this month"],
+            "responses": ["Sports Day is scheduled for March 30. Stay tuned for more details! 🏅"]
+        },
+        {
+            "tag": "technical_event",
+            "patterns": ["Upcoming technical seminars", "Coding Workshop details", "Tech fest events"],
+            "responses": ["Upcoming technical seminars and club meetings are available on the college portal."]
+        },
+        {
+            "tag": "placement_drive1",
+            "patterns": ["Upcoming placement drive", "Placement details for IT", "When is the next placement?"],
+            "responses": ["Placement drive scheduled for April 20-22. Register on the college portal! 📆"]
+        },
+        {
+            "tag": "placement_drive2",
+            "patterns": ["Placement opportunities for IT", "Internship in AI/ML", "Career fairs details"],
+            "responses": ["AI/ML internships are available with top tech companies. Visit the placement cell. 💼"]
+        },
+        {
+            "tag": "robotics_club",
+            "patterns": ["Robotics Club details"],
+            "responses": ["**Robotics Club**: \nContact: roboticsclub@college.edu\nMeetings: Saturdays, 4 PM - 6 PM. 🛠️"]
+        },
+        {
+            "tag": "coding_club",
+            "patterns": ["Coding Club details"],
+            "responses": ["**Coding Club**: \nContact: codingclub@college.edu\nWorkshops: Sundays, 10 AM - 2 PM. 🖥️"]
+        },
+        {
+            "tag": "drama_club",
+            "patterns": ["Drama Club details"],
+            "responses": ["**Drama Club**: \nContact: dramaclub@college.edu\nRehearsals: Thursdays, 3 PM - 6 PM. 🎭"]
+        },
+        {
+            "tag": "sports_club",
+            "patterns": ["Sports Club details"],
+            "responses": ["**Sports Club**: \nContact: sportsclub@college.edu\nPractice: Wednesdays and Fridays, 6 PM - 8 PM. 🏅"]
+        },
+        {
+            "tag": "scholarship_aid",
+            "patterns": ["Scholarship Aid details"],
+            "responses": ["**Scholarship Aid**: \nContact: scholarshipaid@college.edu\nApplication Deadline: June 15. 📄"]
+        },
+        {
+            "tag": "general_queries",
+            "patterns": ["How to pay college fees?", "Payment methods for fees", "Fee-related queries", "Whom to contact for non-departmental issues?", "General office address", "College address for queries"],
+            "responses": ["For payment or fee-related queries, or general non-departmental questions, please contact the Main Office: \nAddress: 123 College Avenue, City Name \nEmail: admin@college.edu \nPhone: 123-456-7890 📞"]
+        },
+        {
+            "tag": "general_contact",
+            "patterns": ["Who to contact for general queries?", "General office contact details", "Where to ask general questions?"],
+            "responses": ["For general queries, contact the College Helpdesk: \nEmail: helpdesk@college.edu \nPhone: 123-456-7891 📞"]
+        },
+        {
+            "tag": "college_schedule",
+            "patterns": ["What are the college timings?", "College schedule for today", "When does the college start?", "Holiday schedule", "What are the holidays this semester?", "College timings and holidays"],
+            "responses": ["The college timings are as follows: \n- Monday to Friday: 8:00 AM to 6:00 PM \n- Saturday: 8:00 AM to 1:00 PM. \n\nHoliday Schedule: \n- Republic Day: January 26 \n- Independence Day: August 15 \n- Di wali Break: November 10-15. \nFor a complete list, check the academic calendar on the portal."]
+        }
+    ]
+}
